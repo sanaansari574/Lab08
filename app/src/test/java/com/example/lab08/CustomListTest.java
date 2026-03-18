@@ -23,7 +23,7 @@ public class CustomListTest {
         list.addCity(city);
         list.deleteCity(city);
 
-        //This will fail initially because hasCity() doesn't exist
+        //this will fail initially because deleteCity doesn't exist -> city still in list
         assertFalse(list.hasCity(city));
     }
 
